@@ -52,7 +52,7 @@ public static void main (String[]args) {
 	
 	System.out.println("Peso:"+ peso +"KG" );
 	
-	imc = (peso)/((altura*altura));
+	imc = (peso)/(altura*altura);
 	if(imc <= 16.9) {
 	System.out.println("Voce esta com o Índice de Massa Corporal em:"+imc+" Muito abaixo do peso menor que 16,9");
 	}else if(imc <= 18.4){
@@ -74,5 +74,6 @@ public static void main (String[]args) {
 	
 	System.out.println("Páis:"+ pais );
 	
+	in.close();
 }
 }
